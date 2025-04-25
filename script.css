@@ -1,0 +1,89 @@
+body {
+    background: #f8f9fa;
+  }
+
+  header {
+    background: #004b8d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+  }
+
+  header img {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    height: 60px;
+  }
+
+  .section-title {
+    margin: 40px 0 20px;
+    font-weight: bold;
+    color: #004b8d;
+  }
+
+  .card:hover {
+    transform: scale(1.02);
+    transition: 0.3s ease-in-out;
+  }
+
+  .footer {
+    background: #004b8d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+  }
+
+  .card-instituicao {
+    background-color: #ffffffcc;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    flex: 1 1 300px; /* largura mínima, mas permite crescer */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 250px; /* força altura mínima */
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+   
+  }
+  .card h3 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .card p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card-instituicao .card-body {
+    overflow-y: auto;
+  }
+  
+  .card-clickable {
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .card-clickable:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+  }
+  
