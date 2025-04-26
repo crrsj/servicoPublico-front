@@ -51,12 +51,6 @@ A página exibe, de forma separada e organizada:
 
 ---
 
-## 🏁 Licença
-
-Este projeto está sob a licença **MIT**.  
-Sinta-se livre para utilizar e melhorar!
-
----
 
 > “Tecnologia a serviço do cidadão sergipano.”
 >
